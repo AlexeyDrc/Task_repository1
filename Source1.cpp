@@ -6,6 +6,7 @@
 
 using namespace std;
 
+
 int main()
 {
 	srand(time(0));
@@ -56,12 +57,6 @@ int main()
 	}
 	cout « "\n\nСумма цифр = " « sum;
 	Sleep(200);
-	double factorial = 1;
-	for (int i = 2; i <= sec_num; i++)
-	{
-		factorial = factorial * i;
-	}
-	cout « "\nФакториал числа = " « factorial;
 	Sleep(200);
 	if (sec_num != 1)
 	{
